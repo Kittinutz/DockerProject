@@ -12,3 +12,14 @@ services:
       - ./etc/letsencrypt/live/kittinut.asia/fullchain.pem:/etc/letsencrypt/live/kittinut.asia/fullchain.pem
       - ./etc/letsencrypt/live/kittinut.asia/privkey.pem:/etc/letsencrypt/live/kittinut.asia/privkey.pem
       - ./etc/letsencrypt/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+    depends_on:
+      - nodejs
+  nodejs:
+    image: node:9.11.1-alpine
+    container_name: nodejs
+    working_dir: /home/app/nodejs
+    volumes:
+      - ./nodejs:/home/app/nodejs
+    ports:
+      - "3000:3000"
+    command: "node server.js"
