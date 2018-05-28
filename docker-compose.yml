@@ -11,4 +11,4 @@ services:
       - ./www/example.com/:/usr/share/nginx/html
       - ./etc/letsencrypt/live/kittinut.asia/fullchain.pem:/etc/letsencrypt/live/kittinut.asia/fullchain.pem
       - ./etc/letsencrypt/live/kittinut.asia/privkey.pem:/etc/letsencrypt/live/kittinut.asia/privkey.pem
-      - ./etc/letsencrypt/dh-param/:/etc/ssl/certs
+      - ./etc/letsencrypt/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
