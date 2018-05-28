@@ -9,5 +9,6 @@ services:
     volumes:
       - ./nginx/:/etc/nginx/conf.d/
       - ./www/example.com/:/usr/share/nginx/html
-      - ./etc/letsencrypt/live/kittinut.asia/:/etc/letsencrypt/live/kittinut.asia/
+      - ./etc/letsencrypt/live/kittinut.asia/fullchain.pem:/etc/letsencrypt/live/kittinut.asia/fullchain.pem
+      - ./etc/letsencrypt/live/kittinut.asia/privkey.pem:/etc/letsencrypt/live/kittinut.asia/privkey.pem
       - ./etc/letsencrypt/dh-param/:/etc/ssl/certs
