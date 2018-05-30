@@ -26,7 +26,7 @@ app.use('/',(req,res)=>{
 })
 app.use('/api',(req,res)=>{
     res.send('this test webhook')
-    console.log('already')
+    console.log('already wtf')
 })
 app.listen(3000,()=>{
     console.log('server is listen on port 3000')
