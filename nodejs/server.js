@@ -21,13 +21,13 @@ const Html = `
 </body>
 </html>
 `
-app.use('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send(Html);
-})
-app.use('/api',(req,res)=>{
-    res.send('this test webhook')
-    console.log('already wtf')
-})
+});
+app.get('/api',(req,res)=>{
+    res.send('hello this api');
+    console.log('already wtf');
+});
 app.listen(3000,()=>{
     console.log('server is listen on port 3000')
 })
