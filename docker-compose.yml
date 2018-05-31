@@ -22,6 +22,6 @@ services:
       - ./nodejs:/home/app/nodejs
     ports:
       - "3000:3000"
-    command: "node server.js"
+    command: "npm start"
     expose:
       - 3000
