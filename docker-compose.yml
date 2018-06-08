@@ -19,7 +19,7 @@ services:
     container_name: nodejs
     working_dir: /home/app/nodejs
     volumes:
-      - ./nodejs:/home/app/nodejs
+      - ./nodejs/wanaburi:/home/app/nodejs
     ports:
       - "3000:3000"
     command: "npm start"
