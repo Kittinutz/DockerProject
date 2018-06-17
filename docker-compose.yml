@@ -9,13 +9,10 @@ services:
     volumes:
       - ./nginx/:/etc/nginx/conf.d/
       - ./www/example.com/:/usr/share/nginx/html
-      - ./etc/letsencrypt/live/absolutecarrentalphuket.com/fullchain.pem:/etc/letsencrypt/live/absolutecarrentalphuket.com/fullchain.pem
-      - ./etc/letsencrypt/live/absolutecarrentalphuket.com/privkey.pem:/etc/letsencrypt/live/s.com/privkey.pem
-      - ./etc/letsencrypt/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+      g
     depends_on:
       - nodejs
-    expose:
-      - 80
+
   nodejs:
     image: node:9.11.1-alpine
     container_name: nodejs
