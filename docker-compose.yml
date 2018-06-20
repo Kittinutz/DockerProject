@@ -25,14 +25,26 @@ services:
     command: "npm start"
     expose:
       - 3000
-  db:
-    image: mariadb
+  mysql:
+    image: mysql:latest
     restart: always
+    container_name: mysql
+    volumes:
+      - ./mysql/production:/var/lib/mysql
     environment:
+      MYSQL_DATABASE: dev
+      MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: isylzjkoot
-  adminer:
-    image: adminer
-    restart: always
+      MYSQL_PASSWORD: isylzjkoot
     ports:
-      - 8080:8080
+      - 3306:3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    ports:
+      - 8080:80
+    depends_on:
+      - mysql
+
 
