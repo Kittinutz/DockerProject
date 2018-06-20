@@ -41,6 +41,6 @@ services:
     ports:
       -"8888:8888"
        volumes:
-           - ./phpmyadmin/production:/sessions
+      - ./phpmyadmin/production:/sessions
 
 
