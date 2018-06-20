@@ -14,6 +14,7 @@ services:
       - ./etc/letsencrypt/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
     depends_on:
       - nodejs
+      - mysql
   nodejs:
     image: node:9.11.1-alpine
     container_name: nodejs
@@ -26,27 +27,15 @@ services:
     expose:
       - 3000
   mysql:
-    image: mysql/mysql-server
+    image: mysql
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: isylzjkoot
     container_name: mysql
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
-    restart: always
-    ports:
-      - "8080:80"
-
-  db:
-    image: mariadb:10.1
-    container_name: lemp_mariadb
-    restart: always
-    volumes:
-      - ./mysql/initdb/:/docker-entrypoint-initdb.d
-      - ./mysql/data/:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=123132123
-      - MYSQL_DATABASE=lemp_db
-      - MYSQL_USER=lemp
-      - MYSQL_PASSWORD=123456
+      - MYSQL_DATABASE=dev
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data:/var/lib/mysql
