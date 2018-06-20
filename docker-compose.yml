@@ -31,3 +31,9 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: isylzjkoot
     container_name: mysql
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
