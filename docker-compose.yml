@@ -31,7 +31,6 @@ services:
     restart: always
     container_name: mysql
     environment:
-      MYSQL_DATABASE: dev
       MYSQL_USER: root
       MYSQL_PASSWORD: isylzjkoot
       MYSQL_ROOT_PASSWORD: isylzjkoot
