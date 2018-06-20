@@ -36,3 +36,13 @@ services:
       - "3306:3306"
     volumes:
       - ./data:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    environment:
+      PMA_ARBITRARY: 1
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
