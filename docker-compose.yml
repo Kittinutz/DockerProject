@@ -29,7 +29,7 @@ services:
     image: mariadb
     restart: always
     environment:
-    MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: isylzjkoot
     ports:
       - "3306:3306"
     expose:
