@@ -31,8 +31,6 @@ services:
     restart: always
     container_name: mysql
     environment:
-      MYSQL_USER: root
-      MYSQL_PASSWORD: isylzjkoot
       MYSQL_ROOT_PASSWORD: isylzjkoot
     ports:
       - "3306:3306"
