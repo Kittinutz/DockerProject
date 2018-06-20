@@ -46,8 +46,6 @@ services:
       - PMA_ARBITRARY=1
     ports:
       - 8080:80
-    environment:
-      - PMA_ARBITRARY=1
     depends_on:
       - mysql
 
