@@ -41,9 +41,10 @@ services:
       - PMA_ARBITRARY=1
     ports:
       - 8888:8888
-    expose:
-      - 8888
-    volumes:
-      - /sessions
+    environment:
+      PMA_ARBITRARY: 1
+      MYSQL_USER: root
+      MYSQL_PASSWORD: isylzjkoot
+      MYSQL_ROOT_PASSWORD: isylzjkoot
 
 
