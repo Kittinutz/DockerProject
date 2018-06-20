@@ -10,7 +10,7 @@ services:
       - ./nginx/:/etc/nginx/conf.d/
       - ./www/example.com/:/usr/share/nginx/html
       - ./etc/letsencrypt/live/absolutecarrentalphuket.com/fullchain.pem:/etc/letsencrypt/live/absolutecarrentalphuket.com/fullchain.pem
-      - ./etc/letsencrypt/live/absolutecarrentalphuket.com/privkey.pem:/etc/letsencrypt/live/.com/privkey.pem
+      - ./etc/letsencrypt/live/absolutecarrentalphuket.com/privkey.pem:/etc/letsencrypt/live/absolutecarrentalphuket.com/privkey.pem
       - ./etc/letsencrypt/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
     depends_on:
       - nodejs
@@ -33,6 +33,7 @@ services:
       - ./mysql/production:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: isylzjkoot
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
