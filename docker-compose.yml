@@ -47,9 +47,7 @@ services:
     ports:
       - 8080:80
     environment:
-      MYSQL_USER: root
-      MYSQL_PASSWORD: isylzjkoot
-      MYSQL_ROOT_PASSWORD: isylzjkoot
+      - PMA_ARBITRARY=1
     depends_on:
       - mysql
 
