@@ -25,9 +25,9 @@ services:
     command: "npm start"
     expose:
       - 3000
-  mariadb:
-    image: mariadb
+  mysql:
+    image: mysql/mysql-server
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: isylzjkoot
-    container_name: mariadb
+    container_name: mysql
