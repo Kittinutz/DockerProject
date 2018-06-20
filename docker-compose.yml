@@ -39,7 +39,7 @@ services:
     environment:
       - PMA_ARBITRARY=1
     ports:
-      -"8888:8888"
+      - "8888:8888"
     volumes:
       - /sessions
 
