@@ -25,19 +25,4 @@ services:
     command: "npm start"
     expose:
       - 3000
-  db:
-    mage: mariadb
-    restart: always
-    environment:
-    MYSQL_ROOT_PASSWORD: isylzjkoot
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
-    environment:
-      PMA_ARBITRARY: 1
-    ports:
-      - 8080:80
-    links:
-      - db:db
 
