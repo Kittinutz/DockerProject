@@ -47,9 +47,10 @@ services:
     ports:
       - 8080:80
     environment:
-      mysql_db_server: mysql
       MYSQL_USER: root
       MYSQL_PASSWORD: isylzjkoot
       MYSQL_ROOT_PASSWORD: isylzjkoot
+    links:
+      - mysql_db_server:mysql
 
 
