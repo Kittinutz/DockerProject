@@ -25,4 +25,12 @@ services:
     command: "npm start"
     expose:
       - 3000
-
+  db:
+    image: mariadb
+    restart: always
+    environment:
+    MYSQL_ROOT_PASSWORD: example
+    ports:
+      - "3306:3306"
+    expose:
+      - 3306
