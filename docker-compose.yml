@@ -40,7 +40,7 @@ services:
       - PMA_ARBITRARY=1
     ports:
       -"8888:8888"
-       volumes:
+    volumes:
       - ./phpmyadmin/production:/sessions
 
 
