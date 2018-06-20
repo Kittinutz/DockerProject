@@ -37,3 +37,16 @@ services:
     restart: always
     ports:
       - "8080:80"
+
+  db:
+    image: mariadb:10.1
+    container_name: lemp_mariadb
+    restart: always
+    volumes:
+      - ./mysql/initdb/:/docker-entrypoint-initdb.d
+      - ./mysql/data/:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123132123
+      - MYSQL_DATABASE=lemp_db
+      - MYSQL_USER=lemp
+      - MYSQL_PASSWORD=123456
