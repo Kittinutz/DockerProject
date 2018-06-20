@@ -26,7 +26,7 @@ services:
     expose:
       - 3000
   mysql:
-    image: mysql:lastest
+    image: mysql:latest
     restart: always
     container_name: mysql
     volumes:
