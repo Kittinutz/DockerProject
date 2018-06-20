@@ -32,7 +32,6 @@ services:
     volumes:
       - ./mysql/production:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: dev
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: isylzjkoot
       MYSQL_PASSWORD: isylzjkoot
@@ -42,6 +41,8 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
+    environment:
+      PMA_ARBITRARY: 1
     ports:
       - 8080:80
     depends_on:
