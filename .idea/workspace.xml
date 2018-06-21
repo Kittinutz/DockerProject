@@ -28,8 +28,8 @@
       <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/default.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+            <state relative-caret-position="457">
+              <caret line="102" column="3" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -181,12 +181,12 @@
       <workItem from="1529229250948" duration="4020000" />
       <workItem from="1529503482877" duration="11365000" />
       <workItem from="1529571170982" duration="562000" />
-      <workItem from="1529600516288" duration="502000" />
+      <workItem from="1529600516288" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33600000" />
+    <option name="totallyTimeSpent" value="33696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -526,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        <state relative-caret-position="457">
+          <caret line="102" column="3" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
         </state>
       </provider>
     </entry>
