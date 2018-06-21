@@ -24,8 +24,15 @@ services:
     ports:
       - "3000:3000"
     command: "npm start"
-    expose:
-      - 3000
+  server:
+    image: node:9.11.1-alpine
+    container_name: servernode
+    working_dir: /home/app/serverjs
+    volumes:
+      - ./nodejs/serverjs:/home/app/serverjs
+    ports:
+      - "5000:5000"
+    command: "npm start"
   mysql:
     image: mysql
     restart: always
