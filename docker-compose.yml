@@ -40,7 +40,7 @@ services:
     volumes:
       - ./nodejs/serverjs:/home/app/servicejs
     ports:
-      - "3360:3360"
+      - "3307:3307"
     command: "npm start"
   mysql:
     image: mysql
