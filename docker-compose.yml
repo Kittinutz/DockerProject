@@ -27,11 +27,13 @@ services:
   server:
     image: node:9.11.1-alpine
     container_name: servernode
-    working_dir: /home/app/serverjs
+    working_dir: /home/app/
     volumes:
       - ./nodejs/serverjs:/home/app/serverjs
+      - ./nodejs/servicejs:/home/app/servicejs
     ports:
       - "5000:5000"
+      - "3060:3060"
     command: "npm start"
   mysql:
     image: mysql
