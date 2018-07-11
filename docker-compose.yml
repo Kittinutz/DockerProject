@@ -38,7 +38,7 @@ services:
     container_name: servicejs
     working_dir: /home/app/servicejs
     volumes:
-      - ./nodejs/serverjs:/home/app/servicejs
+      - ./nodejs/servicejs:/home/app/servicejs
     ports:
       - "3307:3307"
     command: "npm start"

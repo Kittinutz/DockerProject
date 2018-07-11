@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df29c78f-3f27-4e21-9827-1d7d98fd3948" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/default.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/nodejs/package.json" />
         <option value="$PROJECT_DIR$/nodejs/server.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/nginx/default.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -185,12 +185,12 @@
       <workItem from="1529678303255" duration="828000" />
       <workItem from="1530189355728" duration="1023000" />
       <workItem from="1531203884269" duration="1857000" />
-      <workItem from="1531334214499" duration="1743000" />
+      <workItem from="1531334214499" duration="1883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40513000" />
+    <option name="totallyTimeSpent" value="40653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -528,6 +528,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="205" column="46" selection-start-line="205" selection-start-column="46" selection-end-line="205" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/example.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -537,15 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="205" column="46" selection-start-line="205" selection-start-column="46" selection-end-line="205" selection-end-column="46" />
+        <state relative-caret-position="495">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
