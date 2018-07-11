@@ -36,7 +36,7 @@ services:
   service:
     image: node:9.11.1-alpine
     container_name: servicejs
-    working_dir: /home/app/service
+    working_dir: /home/app/servicejs
     volumes:
       - ./nodejs/serverjs:/home/app/servicejs
     ports:
