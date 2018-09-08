@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df29c78f-3f27-4e21-9827-1d7d98fd3948" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
-    </list>
+    <list default="true" id="df29c78f-3f27-4e21-9827-1d7d98fd3948" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,7 +17,7 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
+            <state relative-caret-position="189">
               <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
@@ -28,8 +26,8 @@
       <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/default.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+            <state relative-caret-position="477">
+              <caret line="153" column="25" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -78,6 +76,8 @@
     <findStrings>
       <find>kittinut</find>
       <find>absolutecarrentalphuket.com</find>
+      <find>absolutecarrentalphuket</find>
+      <find>api</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,16 +187,15 @@
       <workItem from="1531203884269" duration="1857000" />
       <workItem from="1531334214499" duration="2610000" />
       <workItem from="1531495872679" duration="398000" />
-      <workItem from="1531829752289" duration="1625000" />
+      <workItem from="1531829752289" duration="3390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43403000" />
+    <option name="totallyTimeSpent" value="45168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -539,15 +538,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
+        <state relative-caret-position="189">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+        <state relative-caret-position="477">
+          <caret line="153" column="25" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="47" />
         </state>
       </provider>
     </entry>
